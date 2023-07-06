@@ -1,7 +1,7 @@
 
 local a=Drawing.new("Text")
 a.Visible=true
-a.Text="Made By code026jb discord = jb026"
+a.Text="Made By code026jb discord = jb026 wait 5 seconds and the silent aim + esp will loads"
 a.Transparency=1
 a.Font=0
 a.Size=25
