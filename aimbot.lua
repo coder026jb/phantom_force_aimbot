@@ -1,17 +1,3 @@
-
-local a=Drawing.new("Text")
-a.Visible=true
-a.Text="Made By code026jb discord = jb026 wait 5 seconds and the silent aim + esp will loads"
-a.Transparency=1
-a.Font=0
-a.Size=25
-a.Color=Color3.new(255,0,0)
-game:GetService("RunService").RenderStepped:Connect(function()a.Position=Vector2.new(workspace.CurrentCamera.ViewportSize.X/2-100
-,workspace.CurrentCamera.ViewportSize.Y/2)end)
-
-wait(5)
-a:Remove()
-
 FOV = 180
 HIT_PART = "Head"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Spoorloos/scripts/main/silent_aim_no_actor_bypass.lua"))() --thx spoorloos for the silent aim
